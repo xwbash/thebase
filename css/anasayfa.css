@@ -22,6 +22,12 @@
     font-family: 'NexaThin';
     src: url("../fonts/Nexa\ Light.otf");  
 }
+.normalText
+{
+    color:silver;
+    font-family: "NexaBold";
+    font-size: 15px;
+}
 .bannerText{
     font-family: "NexaBold";
     font-size: 50px;
@@ -104,6 +110,7 @@ table.baslik
     width: 650px;
     
 }
+
 .link
 {
    color:rgb(255, 255, 255);

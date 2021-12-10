@@ -51,7 +51,7 @@ include 'db_conn.php';
     <br>
     <button style="padding: 8px 32px;" type="submit" name="kaydet"> Sign It </button> </br></center>
 </form>
-
+<center><a href="adminpanel.php" style="color: silver;"> Go Back I Want To Be Monke </a></center>
 <?php
     $telefonno =intval($_POST['phone']);
     $sql="insert into users(isim,soyisim,mail,telefonumarasi,DogumGunu) values('".$_POST["isim"]."','".$_POST["soyisim"]."','".$_POST["email"]."','".$telefonno."','".$_POST["datet"]."')";

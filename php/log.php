@@ -29,6 +29,7 @@ if(mysqli_num_rows($result) === 1)
         $_SESSION['yetki'] = $row['yetki'];
         $_SESSION['isim']= $row['isim'];
         $_SESSION['soyisim'] = $row['soyisim'];
+        $_SESSION['numara'] = $row['SchoolNum'];
         echo("success!");
 
         $sql1 = "SELECT * FROM roller WHERE Isim='Admn'";
